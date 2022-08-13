@@ -4,6 +4,6 @@
 km = float(input('Quantos km você percorreu? '))
 dias = int(input('Quantos dias você ficou com o carro? '))
 diaria = 60 * dias
-rodado = km * 0.15
-print(f'O valor total a ser pago será de {diaria + rodado}')
+rodado = 0.15 * km
+print(f'O valor total a ser pago será de R$ {diaria + rodado:.2f}')
 
